@@ -18,12 +18,19 @@
 		{{outlet}}
 	</script>
 	<script type="text/x-handlebars" id="index">
+		<h3>Index</h3>
 		<ul>
 			<li>no viene de model</li>
 		{{#each model as |item|}}
       <li>{{item}}</li>
     {{/each}}
 		</ul>
+	</script>
+	<script type="text/x-handlebars" id="home">
+		<h3>Home</h3>
+	</script>
+	<script type="text/x-handlebars" id="not-found">
+		<h3>404</h3>
 	</script>
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="bower_components/ember/ember.min.js"></script>
