@@ -1,0 +1,20 @@
+{
+  "name": "ember-bower",
+  "authors": [
+    "Pepe Valdivia <<jvaldivia@softweb.pe>>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "^2.18.2"
+  }
+}
