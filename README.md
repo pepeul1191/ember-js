@@ -2,7 +2,11 @@
 
 Descargar depedencias de bower y npm:
     
-    $ bower install
+    $ bower install && npm install
+
+Extensión de EmberJS para el explorador:
+
+    Ember Inspector
 
 ---
 
